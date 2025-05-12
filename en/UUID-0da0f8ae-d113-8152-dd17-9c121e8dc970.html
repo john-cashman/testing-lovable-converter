@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Webhooks</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index-en.html" title="Admin" />
+    <link rel="up" href="UUID-e43898fe-4779-8b62-2ada-0503fa42d5f4.html" title="Admin" />
+    <link rel="prev" href="UUID-3ad50c4d-613f-3f17-b3cd-107406cf9e82.html" title="Transactions" />
+    <link rel="next" href="UUID-bd06b7a9-6eb4-f939-128c-a1e938032e52.html" title="Create a webhook" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Webhooks</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="UUID-3ad50c4d-613f-3f17-b3cd-107406cf9e82.html">Prev</a> </td>
+          <th width="60%" align="center">Admin</th>
+          <td width="20%" align="right"> <a accesskey="n" href="UUID-bd06b7a9-6eb4-f939-128c-a1e938032e52.html">Next</a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div xml:lang="en" lang="en" dir="ltr" class="section">
+      <div class="titlepage">
+        <div>
+          <div class="title">
+            <h2 class="title" style="clear: both"><a id="UUID-0da0f8ae-d113-8152-dd17-9c121e8dc970"></a>Webhooks</h2>
+          </div>
+        </div>
+      </div>
+      <p>From the Webhooks page, you can create webhooks to facilitate automated notifications when certain events occur, such as order confirmation, cancellation, rebooking, and so on.</p>
+      <p>On the Webhooks page, you can consult the <a class="link linktype-fork" href="UUID-bd06b7a9-6eb4-f939-128c-a1e938032e52.html" title="Create a webhook">created webhook</a>, <a class="link linktype-fork" href="UUID-842af4ea-b150-c5e3-be37-89290a061fc2.html" title="Test and Activate the webhook">test the webhook</a>, and <a class="link linktype-component" href="UUID-7f2c893f-20e3-fbe1-d131-896cd9493758.html" title="Webhook notification logs">view webhook notification logs</a>.</p>
+      <div dir="ltr" class="section">
+        <div class="titlepage">
+          <div>
+            <div class="title">
+              <h3 class="title"><a id="UUID-0da0f8ae-d113-8152-dd17-9c121e8dc970_section-idm4626350641270433831417573299"></a>Consult webhooks</h3>
+            </div>
+          </div>
+        </div>
+        <p>On the Webhooks page, you can consult the created webhooks along with their status. </p>
+        <div class="mediaobject">
+          <img src="image/uuid-17204bd3-27bd-0812-651f-047c84854021.jpg" style="" alt="112.jpg" />
+        </div>
+        <p>Clicking on a webhook, you can consult its details in a side panel.</p>
+        <div class="mediaobject">
+          <img src="image/uuid-6d91b18c-a526-d8f9-2d39-125d5eafb4ad.jpg" style="" alt="111.jpg" />
+        </div>
+        <p>In case any event notification of a webhook fails, the system will auto-retry to send that event notification. When the system auto-retry duration expires and still the notification is not delivered, then you will see an alert icon next to the status of that webhook.</p>
+        <div class="mediaobject">
+          <img src="image/uuid-27af0f8d-7f82-0312-ac94-23ae1db1b10f.jpg" style="" alt="137.jpg" />
+        </div>
+        <p>You can check the remark for the failed notification from the <a class="link linktype-fork" href="UUID-7f2c893f-20e3-fbe1-d131-896cd9493758.html" title="Webhook notification logs">webhook notification logs </a>page.</p>
+      </div>
+      <div dir="ltr" class="section">
+        <div class="titlepage">
+          <div>
+            <div class="title">
+              <h3 class="title">
+                <a id="UUID-0da0f8ae-d113-8152-dd17-9c121e8dc970_section-idm4567540622188833831415851691"></a>
+                <h4><a id="UUID-0da0f8ae-d113-8152-dd17-9c121e8dc970_bridgehead-idm4573709338918433817374113522"></a>Edit a webhook</h4>
+              </h3>
+            </div>
+          </div>
+        </div>
+        <p>On the Webhooks page, click on the more options button (...) corresponding to a webhook to edit it.</p>
+        <div class="mediaobject">
+          <img src="image/uuid-a51ddae6-9b0b-006f-cabd-6d696ed415eb.jpg" style="" alt="114.jpg" />
+        </div>
+        <p>
+          <span class="bold">
+            <strong>Important to know:</strong>
+          </span>
+        </p>
+        <div class="itemizedlist">
+          <ul class="itemizedlist" style="list-style-type: disc; ">
+            <li class="listitem">
+              <p>When <span class="bold"><strong>editing a webhook</strong></span>, only the last five characters of the HMAC key are shown. </p>
+              <div class="mediaobject">
+                <img src="image/uuid-52e5a3fb-4920-6c37-bf5e-e5050cea34c9.jpg" style="" alt="117.jpg" />
+              </div>
+            </li>
+            <li class="listitem">
+              <p>If you haven't saved the HMAC key generated at the time of creating the webhook, you can regenerate it.</p>
+              <div class="mediaobject">
+                <img src="image/uuid-39b18407-daa8-af78-3be8-252c6b3de37a.jpg" style="" alt="118.jpg" />
+              </div>
+            </li>
+            <li class="listitem">
+              <p>When an active webhook is edited and saved, the system prompts the user to test the updated webhook to ensure that the updated configurations are correct.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div dir="ltr" class="section">
+        <div class="titlepage">
+          <div>
+            <div class="title">
+              <h3 class="title"><a id="UUID-0da0f8ae-d113-8152-dd17-9c121e8dc970_section-idm4545491367945633864070857275"></a>Delete a webhook</h3>
+            </div>
+          </div>
+        </div>
+        <p>On the Webhooks page, click on the more options button (...) corresponding to a webhook to delete it.</p>
+        <div class="mediaobject">
+          <img src="image/uuid-568d1593-4460-73e3-72a3-aeda085487e8.jpg" style="" alt="131.jpg" />
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="UUID-3ad50c4d-613f-3f17-b3cd-107406cf9e82.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="UUID-e43898fe-4779-8b62-2ada-0503fa42d5f4.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="UUID-bd06b7a9-6eb4-f939-128c-a1e938032e52.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Transactions </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index-en.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Create a webhook</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
