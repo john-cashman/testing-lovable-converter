@@ -4,7 +4,7 @@ description: "View & Edit your project’s code directly in Lovable"
 icon: "code"
 ---
 
-![Twitterpost 1 Pn](../images/Twitterpost-1.png)
+![Twitterpost 1 Pn](/images/Twitterpost-1.png)
 
 Previously, viewing your code required connecting your Lovable project to [GitHub](https://docs.lovable.dev/integrations/git-integration).
 
