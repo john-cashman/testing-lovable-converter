@@ -1,7 +1,6 @@
 # Table of contents
 
-* [Page 1](README.md)
-* [These docs are built with Mintlify](readme.md)
+* [These docs are built with Mintlify](README.md)
 * [Changelog](changelog.md)
 * [FAQ](faq.md)
 * [Glossary](glossary.md)
