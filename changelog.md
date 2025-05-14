@@ -1,8 +1,5 @@
 ---
-title: Changelog
-description: News from the Lovable engineering team.
-icon: clock-rotate-left
+title: "Changelog"
+description: "News from the Lovable engineering team. "
+icon: "clock-rotate-left"
 ---
-
-# Changelog
-
